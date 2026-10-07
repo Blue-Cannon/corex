@@ -1,5 +1,5 @@
 [package]
-name = "corex"
+name = "corex-cargo"
 version = "0.1.0"
 edition = "2021"
 authors = ["Rogge Ramos"]
@@ -11,7 +11,7 @@ keywords = ["programming-language", "compiler", "interpreter", "corex", "mingmin
 categories = ["development-tools", "compilers"]
 
 [[bin]]
-name = "corex"
+name = "corx"
 path = "src/rust/main.rs"
 
 [dependencies]
